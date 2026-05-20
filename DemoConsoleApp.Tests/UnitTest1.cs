@@ -1,10 +1,12 @@
-namespace DemoConsoleApp.Tests;
+using DemoConsoleApp;
+using Xunit;
 
-public class UnitTest1
+public class CalculatorTests
 {
     [Fact]
-    public void Test1()
+    public void Add_ReturnsCorrectValue()
     {
-
+        int result = Calculator.Add(2, 3);
+        Assert.Equal(5, result);  // 실제 검증
     }
 }
