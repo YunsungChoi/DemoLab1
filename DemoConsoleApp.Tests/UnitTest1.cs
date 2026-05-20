@@ -7,6 +7,6 @@ public class CalculatorTests
     public void Add_ReturnsCorrectValue()
     {
         int result = Calculator.Add(2, 3);
-        Assert.Equal(5, result);  // 실제 검증
+        Assert.Equal(5, result);
     }
 }
